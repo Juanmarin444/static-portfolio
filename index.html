@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <title>Juan Marin</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="navBar" >
+        <a style="font-weight: 900;">Juan Marin</a>
+        <a href="#main2" class='btn2 btn'>Contact</a>
+        <a href="#main4" class='btn4 btn'>About</a><!--removed class="active" -->
+        <a href="#main3" class='btn3 btn'>Projects</a>
+        <a href="#main1" class='btn1 btn active'>Home</a>
+      </div> <!-- NAVBAR -->
+      <div id="main1">
+        <p class="outer" >Hello, I'm</p>
+        <p class="inner" >Juan Marin</p>
+        <p class="outer" >AND THIS IS MY PORTFOLIO</p>
+      </div> <!-- MAIN -->
+      <div id="main3">
+        <h1 style="font-size: 50px; margin-bottom: 35px; font-weight: 300;">Django Projects</h1>
+        <!--DJANGO GALLERY-->
+        <div class="gallery">
+          <figure class="gallery_item gallery_item--1">
+            <a href="https://radiant-peak-63085.herokuapp.com/" target="_blank">
+              <img class="gallery__img" src="images\project_sites\task_manager.png" alt="Task Manager Web App">
+            </a>
+            <div class="item-name">
+              <p>Task Manager</p>
+            </div>
+          </figure>
+          <figure class="gallery_item gallery_item--2">
+            <a href="">
+              <img class="gallery__img" src="images\project_sites\login_register.png" alt="Login & Register Page">
+            </a>
+            <div class="item-name">
+              <p>Login & Register</p>
+            </div>
+          </figure>
+          <figure class="gallery_item gallery_item--3">
+            <a href="https://limitless-thicket-74505.herokuapp.com/" target="_blank">
+              <img class="gallery__img" src="images\project_sites\course_tracker.png" alt="Course Tracker Web App">
+            </a>
+            <div class="item-name">
+              <p>Course Tracker</p>
+            </div>
+          </figure>
+          <figure class="gallery_item gallery_item--4">
+            <a href="">
+              <img class="gallery__img" src="images\project_sites\treasure_hunt.png" alt="Treasure Hunt Game">
+            </a>
+            <div class="item-name">
+              <p>Treasure Hunt Game</p>
+            </div>
+          </figure>
+        </div> <!-- Django Gallery -->
+        <h1 style="font-size: 50px; margin-bottom: 35px; font-weight: 300;">React Projects (PWA)</h1>
+        <!--REACT GALLERY-->
+        <div class="gallery gallery2">
+          <figure class="gallery_item gallery_item--1">
+            <a href="https://world-clock-juanmarin.netlify.app/" target="_blank">
+              <img class="gallery__img" src="images\project_sites\task_manager.png" alt="Task Manager Web App">
+            </a>
+            <div class="item-name">
+              <p>World Clock</p>
+            </div>
+          </figure>
+          <figure class="gallery_item gallery_item--2">
+            <a href="https://weather-app-juanmarin.netlify.app/" target="_blank">
+              <img class="gallery__img" src="images\project_sites\login_register.png" alt="Login & Register Page">
+            </a>
+            <div class="item-name">
+              <p>Weather App</p>
+            </div>
+          </figure>
+
+        </div> <!-- React Gallery -->
+      </div> <!-- main3 -->
+      <div id="main4">
+        <h1 style="font-size: 50px; margin-bottom: 35px; font-weight: 300;">WHO IS THIS GUY?</h1>
+        <h3>If you're looking for an inquisitive mind, someone who tackles problems with a positive attitude and focuses on the larger aspect of things, you've come to the perfect location.</h3>
+        <br/>
+        <p>
+           Initially, I intended to become an Engineer. I tested the waters ranging from Mechanical to Civil Engineering but something never felt quite right. As a child, I was usually found deconstructing my toys and learning all about how the manufacturers solved simple problems. Amazingly, somethings never changed, I have been very fortunate to continue to do what I’ve always loved, only now through programming!
+        </p>
+        <br/>
+        <p>
+           I first discovered coding back in high school, I was assigned the task to build and program an autonomous robot in engineering 3; Little did I know that those simple conditional statements would draw me in once again upon discovering JavaScript algorithms and later Python web frameworks such as Django and Flask. My current goal is to apply what I have learned through out the years to build beautiful websites for clients alongside an amazing team and to continue to learn and gain experience. I want to contribute to making the internet an amazing world to look at and explore. Hopefully, our paths can cross one day and we can make that world a fantastic place together.
+        </p>
+      </div> <!-- Main4 -->
+      <div id="my_skills">
+        <img src="images\mySkillsGraph_V.png" alt="My Skills Graph">
+        <p>* Self-appointed</p>
+      </div> <!-- my_skills -->
+      <div id="random_facts">
+        <div id="monkey_div">
+          <img src="images\monkeyCartoon.png" alt="">
+        </div>
+        <div>
+          <h1>Random facts</h1><br>
+          <p>I love watching cartoons</p><br>
+          <p>My favorite animal is the racoon</p><br>
+          <p>I can bake pizza from scratch</p><br>
+          <p>I love tractors</p><br>
+          <p>I think paleontology is facinating</p><br>
+          <p>I play a little guitar</p><br>
+          <p>I'd choose to be an Airbender (in a modern world)</p>
+        </div>
+      </div><!-- random_facts -->
+      <div id="main2">
+        <h1 style="font-size: 50px; margin-bottom: 35px; font-weight: 300;">Get In Touch</h1>
+        <div class="main2_center">
+          <div id="get_in_touch">
+            <h3>Thanks for stopping by! You can contact me using this form or by sending me an email.</h3>
+          </div>
+
+          <form id="contactform" action="post" data-netlify="true">
+            <div class="form-item name-field clearfix">
+              <label class="contact-label" for="contactname">Name:</label>
+              <div class="input-wrapper">
+                <input type="text" size="50" name="name" id="contactname" value="" class="required form-text" placeholder="Your Name"required>
+              </div>
+            </div>
+
+            <div class="form-item email-field clearfix">
+              <label class="contact-label" for="email">Email:</label>
+              <div class="input-wrapper">
+                <input type="text" size="50" name="email" id="email" value="" class="required email form-text" placeholder="Your Email" required>
+            	</div>
+            </div>
+
+            <div class="form-item message-field clearfix">
+              <label class="contact-label" for="message">Message:</label>
+              <div class="textarea-wrapper">
+                <div class="textarea-top"></div>
+                <div class="textarea-inner">
+                	<textarea rows="5" cols="50" name="message" id="message" class="required" placeholder="message" required></textarea>
+                </div>
+                <div class="textarea-footer"></div>
+              </div>
+            </div>
+
+            <div>
+              <div data-netlify-recaptcha="">
+
+              </div>
+            </div>
+
+            <input class="form-submit" type="submit" value="SEND">
+          </form>
+
+        </div>
+      </div> <!-- main2 -->
+      <div id="footer">
+        <div id=footer_center>
+          <div id="footer-left">
+            <h2 style="margin-bottom: 15px;">Stay Connected</h2>
+            <a href="https://github.com/juanmarin444" target="_blank" style="text-decoration: none;">
+              <img id="github_icon"src="images\github-Logos\GitHub-Mark-Light-120px-plus.png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/juanmarin444/" target="_blank" style="text-decoration: none;">
+              <img id="linkedin_icon" src="images\LinkedIn-Logos\LI-In-Bug.png" alt="">
+            </a>
+            <a href="contact.html" target="_blank" style="text-decoration: none;">
+              <img id="email_icon" src="images\email\gmail240.png" alt="">
+            </a>
+            <p style="font-size: 12px; margin-top: 10px;">Copyright Copyright Mumbojumbo Copyright 2020.</p>
+          </div> <!-- Footer_Left -->
+          <div id="footer-right">
+            <h2 style="margin-bottom: 5px;">Site Links</h2>
+            <ul>
+              <li><a class="btn1 site_links" href="#main1">Home</a></li>
+              <li><a class="btn3 site_links" href="#main3">Projects</a></li>
+              <li><a class="btn4 site_links" href="#main4">About</a></li>
+              <li><a class="btn2 site_links" href="#main2">Contact</a></li>
+            </ul>
+          </div> <!-- Footer_Right -->
+        </div> <!-- Footer_center -->
+      </div> <!-- FOOTER -->
+    </div> <!-- CONTAINER -->
+
+    <script type="text/javascript">
+      var navBar = document.getElementById('navBar');
+      var btns = navBar.getElementsByClassName("btn");
+      var siteLinks = document.getElementsByClassName('site_links');
+      for(var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+
+        siteLinks[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+
+          for(var j = 0; j < btns.length; j++) {
+            var thisTemp = this.className;
+            var btnsTemp = btns[j].className;
+
+            thisTemp = this.className.replace(" site_links", "");
+            btnsTemp = btns[j].className.replace(" btn", "");
+
+            if (thisTemp === btnsTemp) {
+              btns[j].className += " active";
+            }
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
